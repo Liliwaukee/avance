@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Win Russia</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    @font-face {
+    font-family: dusha;
+    src: url(dusha.ttf);
+    }
+
+    .brand-logo {
+      font-family: dusha;
+    }
+
+    #header {
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    #main {
+      box-sizing: border-box;
+      display: inline-block;
+      width: 92%;
+    }
+
+    #groups {
+      box-sizing: border-box;
+      display: inline-block;
+      width: 8%;
+    }
+
+    .groups {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+      height: 10vh;
+      padding-top: 4vh;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo">Win Russia</a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="side-nav" id="mobile-demo">
+      <li><a href="sass.html">Tarjeta de crédito</a></li>
+      <li><a href="badges.html">Términos y condiciones</a></li>
+      <li><a href="collapsible.html">Cerra sesión</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+  <header id="header">
+    <ul id="tabs-swipe-demo" class="tabs">
+      <li class="tab col s3"><a class="active" href="#test-swipe-1">Partidos</a></li>
+      <li class="tab col s3"><a href="#test-swipe-2">Test 2</a></li>
+      <li class="tab col s3"><a href="#test-swipe-3">Test 3</a></li>
+      <li class="tab col s3"><a href="#test-swipe-4">Test 4</a></li>
+    </ul>
+  </header>
+
+  <main id="main">
+    <div id="test-swipe-1" class="col s12">Test 1
+      <h2>me gusta el sushi</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam similique modi accusamus suscipit exercitationem dolorum illum, sunt aperiam vitae fugiat. Rem, voluptatibus, odio. Expedita necessitatibus ipsa, ratione, vel neque dolorum!</p>
+    </div>
+    <div id="test-swipe-2" class="col s12 red">Test 2</div>
+    <div id="test-swipe-3" class="col s12 green">Test 3</div>
+    <div id="test-swipe-4" class="col s12 red">Test 4</div>
+  </main>
+
+  <aside id="groups" class="center-align right">
+    <div class="groups"><a href="#group-A">A</a></div>
+    <div class="groups"><a href="#group-B">B</a></div>
+    <div class="groups"><a href="#group-C">C</a></div>
+    <div class="groups"><a href="#group-D">D</a></div>
+    <div class="groups"><a href="#group-E">E</a></div>
+    <div class="groups"><a href="#group-F">F</a></div>
+    <div class="groups"><a href="#group-G">G</a></div>
+    <div class="groups"><a href="#group-H">H</a></div>
+  </aside>
+
+
+
+
+<!-- SCRIPTS -->
+
+  <!-- firabase -->
+  <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-database.js"></script>
+
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  <script type="text/javascript" src="app.js">
+
+  </script>
+
+
+
+
+</body>
+</html>
